@@ -36,6 +36,7 @@ Requirements :
 - git
 - python3
 - pip3
+- POSTMAN / CURL
 
 ```bash
 git clone https://github.com/seifallahhomrani1/api.git
@@ -104,6 +105,16 @@ def add_drink():
 
     return {"id": Drink.id}
 ```
+
+In order to insert the data as a json we can use *POSTMAN* or cURL :
+
+## POSTMAN
+
+[postman](postman.png)
+
+## cURL
+
+[cURL](curl.png)
 
 ### delete_drink()
 
