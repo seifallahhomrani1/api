@@ -65,10 +65,3 @@ def delete_drink(id):
 
 
 
-@app.route('/drinks', methods=['PUT'])
-
-def update_drink()
-    Drink = drink.query.get(id=request.json['id'])
-    if Drink is None:
-        return {"ERROR": "Drink not found"}
-    
