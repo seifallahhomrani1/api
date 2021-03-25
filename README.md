@@ -10,7 +10,7 @@ In basic terms, APIs just allow applications to communicate with one another.
 
 When people speak of “an API”, they sometimes generalize and actually mean “a publicly available web-based API that returns data, likely in JSON or XML”. The API is not the database or even the server, it is the code that governs the access point(s) for the server.
 
-[api explanation](api.png)
+![api explanation](api.png)
 
 We can send an API a request detailing the information we want.
 APIs allow our sites to alter data on other applications, too. For instance, you’ve probably seen “Share on Facebook” or “Share on Twitter” buttons on miscellaneous websites. When/if you click one of these buttons, the site you’re visiting can communicate with your Facebook or Twitter account, and alter its data by adding new status or tweet.
@@ -110,11 +110,11 @@ In order to insert the data as a json we can use *POSTMAN* or cURL :
 
 ## POSTMAN
 
-[postman](postman.png)
+![postman](postman.png)
 
 ## cURL
 
-[cURL](curl.png)
+![cURL](curl.png)
 
 ### delete_drink()
 
