@@ -114,6 +114,10 @@ In order to insert the data as a json we can use *POSTMAN* or cURL :
 
 ## cURL
 
+```bash
+ curl --header "Content-Type: application/json"   --request POST   --data '{"name":"Water","description":"Necessary"}'http://localhost:5000/drinks
+```
+
 ![cURL](curl.png)
 
 ### delete_drink()
